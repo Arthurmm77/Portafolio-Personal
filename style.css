@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
     font-family: sans-serif;
     margin: 0;
@@ -12,7 +15,7 @@ body {
 
 }
 
-/* headers */
+/* ----------------header----------------- */
 
 header {
     display: flex;
@@ -28,6 +31,7 @@ header {
     height: 100px;
     margin-top: 65px;
     font-size: 20px; 
+    margin-left: 50px;
 }
 nav{
     width: 80%;
@@ -44,15 +48,16 @@ nav .navegacion {
     justify-content: flex-end;
     font-size: 20px;
     text-decoration: none;
+    margin-right: 10px;
 }
 nav ul li{
     margin-left: 30px;
 }
 
-/* Principal */
+/*-------------- Principal------------------ */
 .soy-yo{
     background-color: black;
-    height: 800px;
+    height: 52.08vw;
     width: 100vw;
 }
 .nombre{
@@ -109,10 +114,25 @@ nav ul li{
     right: 190px;
     cursor: pointer;
 }
-/* Titulo proyecto */
+
+.fotoin{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    top: 145px;
+    right: 180px;
+}
+.fotogit{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    top: 145px;
+    right: 170px;
+}
+/* -------------Titulo proyecto---------------- */
 .proyecto{
     background-color: white;
-    height: 200px;
+    height: 13vw;
     width: 100vw;
 
 
@@ -129,10 +149,10 @@ nav ul li{
     font-size: 100px; 
     text-align: center;  
 }
-/* Proyecto 1 */
+/*---------------- Proyecto 1------------------ */
 .proyecto1{
     background-color: #62c3f4;
-    height: 800px;
+    height: 52.08vw;
     width: 100vw;
 
 }
@@ -171,10 +191,10 @@ nav ul li{
     font-size: 35px;
     font-family: "Abel", sans-serif;
 }
-/* Proyecto 2*/
+/*----------------Proyecto 2--------------------*/
 .proyecto2{
     background-color: #ebeff1;
-    height: 800px;
+    height: 52.08vw;
     width: 100vw;
 
 }
@@ -212,10 +232,10 @@ nav ul li{
     font-family: "Abel", sans-serif;
     bottom: 180px;
 }
-/* Proyecto 3 */
+/*----------------- Proyecto 3------------------ */
 .proyecto3{
     background-color: #62c3f4;
-    height: 800px; 
+    height: 52.08vw; 
     width: 100vw;
 
 }
@@ -252,9 +272,9 @@ nav ul li{
     font-family: "Abel", sans-serif;
     left: 200px;
 }
-/* Sobre mi */
+/* --------------------Sobre mi ---------------------*/
 .sobremi{
-    height: 600px;
+    height: 39.06vw;
     width: 100vw;
     background-color: black;
 }
@@ -279,7 +299,7 @@ nav ul li{
     text-align: center;
     font-family: "Abel", sans-serif;
 }
-/* Contacto */
+/*------------------ Contacto -------------------*/
 .contacto{
     background-color:white;
     height: 80%; 
@@ -344,9 +364,9 @@ nav ul li{
     bottom: 100px;
     left: 900px;
 }
-/* Pie de pagina */
+/*------------------ Pie de pagina---------------- */
 .piedepagina{
-    height: 150px;
+    height: 9.76vw;
     background-color: #62c3f4;
     width: 100vw;
 
@@ -356,11 +376,82 @@ nav ul li{
     left: 200px;
     top:60px
 }
-
-
 .flecha{
     position: relative;
     height: 80px;
     left: 1300px;
+}
+@media (min-width: 375px)and (max-width:720px) {
+header{
+    width: 270%;
+}
+.soy-yo{
+    width: 270%;
+    height: 250%;
+}
+.nombre{
+    color: #62c3f4;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    margin-left: 200px;
+    font-size: 80px ;
+    height: 100px;
+    width: 600px;
+    position: relative;
+    top: 100px
+
+}
+.foto1 {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 390px;
+    left: 350px;
+    border-radius: 16px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+ .mi{
+    text-align: center;
+    height: 500px;
+    width: 700px;
+    bottom: 30px;
+    font-size: 30px;
+    color: white;
+    margin-left: 150px;
+    font-family:"Abel", sans-serif;
+    position: relative;
+    }
+    .boton0{
+        text-decoration:none;
+        font-weight: 600;
+        font-size: 20px;
+        color:#333333;
+        padding-top:15px;
+        padding-bottom:20px;
+        padding-left:40px;
+        padding-right:40px;
+        background-color: #62c3f4;
+        border-style: solid;
+        border-radius:35px;
+        position: relative;
+        top: 450px;
+        left:100px;
+        cursor: pointer;
+    }
     
+    .fotoin{
+        position: relative;
+        height: 60px;
+        width: 60px;
+        top: 145px;
+        right: 180px;
+    }
+    .fotogit{
+        position: relative;
+        height: 60px;
+        width: 60px;
+        top: 145px;
+        right: 170px;
+    }
 }
