@@ -364,7 +364,7 @@ nav ul li{
     bottom: 100px;
     left: 900px;
 }
-/*------------------ Pie de pagina---------------- */
+/*------------------ Footer---------------- */
 .piedepagina{
     height: 9.76vw;
     background-color: #62c3f4;
@@ -381,77 +381,195 @@ nav ul li{
     height: 80px;
     left: 1300px;
 }
-@media (min-width: 375px)and (max-width:720px) {
-header{
-    width: 270%;
-}
-.soy-yo{
-    width: 270%;
-    height: 250%;
-}
-.nombre{
-    color: #62c3f4;
-    font-family: "Bebas Neue", sans-serif;
-    text-align: center;
-    margin-left: 200px;
-    font-size: 80px ;
-    height: 100px;
-    width: 600px;
-    position: relative;
-    top: 100px
-
-}
-.foto1 {
-    height: 300px;
-    width: 300px;
-    position: relative;
-    top: 390px;
-    left: 350px;
-    border-radius: 16px;
-    transition: 0.5s;
-    object-fit: cover;
-}
- .mi{
-    text-align: center;
-    height: 500px;
-    width: 700px;
-    bottom: 30px;
-    font-size: 30px;
-    color: white;
-    margin-left: 150px;
-    font-family:"Abel", sans-serif;
-    position: relative;
+@media (min-width: 390px)and (max-width:844px){ 
+    body{
+        overflow-x: hidden;
     }
-    .boton0{
-        text-decoration:none;
-        font-weight: 600;
-        font-size: 20px;
-        color:#333333;
-        padding-top:15px;
-        padding-bottom:20px;
-        padding-left:40px;
-        padding-right:40px;
-        background-color: #62c3f4;
-        border-style: solid;
-        border-radius:35px;
+    header{
+        width: 95%;
+    }
+    .encabezado{
         position: relative;
-        top: 450px;
-        left:100px;
-        cursor: pointer;
+        font-size: 15px;
+        width: 0;
+        height: 110px;
+        right: 30px;
+
+    }
+    nav .navegacion{
+        visibility: hidden;
+    }
+    /*-------------- Principal------------------ */
+    .soy-yo{
+        width: 100vw;
+        height: 800px;
+    }
+    .nombre{
+        color: #62c3f4;
+        font-family: "Bebas Neue", sans-serif;
+        text-align: center;
+        margin-left: 40px;
+        font-size: 35px ;
+        height: 90px;
+        width: 290px;
+        position: relative;
+        top: 30px
+    
+    }
+    .foto1 {
+        height: 300px;
+        width: 300px;
+        position: relative;
+        top: 250px;
+        left: 35px;
+        border-radius: 16px;
+        transition: 0.5s;
+        object-fit: cover;
+    }
+     .mi{
+        text-align: center;
+        height: 500px;
+        width: 300px;
+        bottom: 250px;
+        font-size: 20px;
+        color: white;
+        margin-left: 40px;
+        font-family:"Abel", sans-serif;
+        position: relative;
+        }
+        .boton0{
+            text-decoration:none;
+            font-weight: 600;
+            font-size: 20px;
+            color:#333333;
+            padding-top:15px;
+            padding-bottom:20px;
+            padding-left:40px;
+            padding-right:40px;
+            background-color: #62c3f4;
+            border-style: solid;
+            border-radius:35px;
+            position: relative;
+            top: 250px;
+            left:90px;
+            cursor: pointer;
+        }
+        
+        .fotoin{
+            position: relative;
+            height: 50px;
+            width: 50px;
+            top: 270px;
+            right: 160px;
+        }
+        .fotogit{
+            position: relative;
+            height: 50px;
+            width: 50px;
+            top: 270px;
+            left: 50px;
+        }
+        /*-------------- Proyectos------------------ */
+        .proyecto{
+            background-color: white;
+            height: 30vw;
+            width: 100vw;
+        
+        
+        }
+        .proyectotitulo h2{
+            position: relative;
+            top:30px;
+        }
+        
+        .proyecto h2{
+            color: black;
+            font-family: "Bebas Neue", sans-serif;
+            font-style: normal;
+            font-size: 50px; 
+            text-align: center; 
+            right: 20px; 
+        }
+        /*---------------- Proyecto 1------------------ */
+    .proyecto1{
+        background-color: #62c3f4;
+        height: 800px;
+        width: 100vw;
+    
+    }
+    .nombre2{
+        color: black;
+        font-family: "Bebas Neue", sans-serif;
+        margin-left: 70px;
+        font-size: 40px ;
+        height: 100px;
+        width: 600px;
+        margin-bottom: 50px; 
+        position: relative;
+        top: 50px;  
+    }
+    .foto2{
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        left: -20px;
+        top: 400px;
+        transition: 0.5s;
+        object-fit: cover;
+    }
+    .foto2:hover{
+        transform: scale(1.2);
+    }
+    .descripcion1{
+        color: black;
+        display: flex;
+        text-align: center;
+        height: 50px;
+        width: 200px;
+        top: 30px;
+        position: relative;
+        margin-bottom: 15px;
+        font-size: 25px;
+        font-family: "Abel", sans-serif;
+    }
+    .proyecto2{
+        background-color: #ebeff1;
+        height: 52.08vw;
+        width: 100vw;
+    
+    }
+    .nombre3{
+        color: black;
+        position: relative;
+        top: 200px;
+        font-family: "Bebas Neue", sans-serif;
+        margin-left: 950px;
+        font-size: 75px ;
+        vertical-align: 100px;
+        
+    }
+    .foto3{ 
+        position: relative;
+        width: 700px;
+        height: 400px;
+        left: 150px;
+        top: 29px;
+        transition: 0.5s;
+        object-fit: cover;
+    }
+    .foto3:hover{
+        transform: scale(1.2);
     }
     
-    .fotoin{
+    .descripcion2{
+        color: black;
         position: relative;
-        height: 60px;
-        width: 60px;
-        top: 145px;
-        right: 180px;
-    }
-    .fotogit{
-        position: relative;
-        height: 60px;
-        width: 60px;
-        top: 145px;
-        right: 170px;
+        text-align: left;
+        height: 100px;
+        width: 500px;
+        left: 950px;
+        font-size: 30px;
+        font-family: "Abel", sans-serif;
+        bottom: 180px;
     }
 }
