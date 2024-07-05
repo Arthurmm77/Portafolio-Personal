@@ -38,6 +38,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: black;
 }
 
 nav .navegacion {
@@ -49,9 +50,14 @@ nav .navegacion {
     font-size: 20px;
     text-decoration: none;
     margin-right: 10px;
+    color: black;
 }
 nav ul li{
     margin-left: 30px;
+    color: black;
+}
+.abrir-menu{
+    display: none;
 }
 
 /*-------------- Principal------------------ */
@@ -326,18 +332,32 @@ nav ul li{
     left: 200px;
     top: 70px;
 }
+.fotoin2{
+    position: relative;
+    height: 100px;
+    width: 90px;
+    top: 145px;
+    left: 190px;
+}
+.fotogit2{
+    position: relative;
+    height: 90px;
+    width: 90px;
+    top: 135px;
+    left: 190px;
+}
 .container-form form .campo, textarea{
     width: 30%;
     padding: 15px 10px;
     font-size: 16px;
-    border: 3px solid #62c3f4;
+    border: 2px solid #62c3f4;
     margin-bottom: 10px;
     border-radius: 3px;
     outline: 0px;
     margin-left: 900px;
     background-color: #F3F3F3;
     position: relative;
-    bottom: 70px;
+    bottom: 90px;
     
 }
 .container-form form textarea{
@@ -397,21 +417,36 @@ nav ul li{
         width: 100vw;
         height: 110px;
         right: 30px;
+        top: 10px;
 
     }
-    nav .navegacion{
-        visibility: hidden;
+    nav .navegacion {
+        display: none;
+    }
+    .abrir-menu{
+        display: block;
+        background: #62c3f4;
+        box-sizing: border-box;
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 60px;
+        height: 40px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
     }
     /*-------------- Principal------------------ */
     .soy-yo{
         width: 100vw;
-        height: 800px;
+        height: 700px;
     }
     .nombre{
         color: #62c3f4;
         font-family: "Bebas Neue", sans-serif;
         text-align: center;
-        margin-left: 40px;
+        margin-left: 45px;
         font-size: 35px ;
         height: 90px;
         width: 290px;
@@ -424,7 +459,7 @@ nav ul li{
         width: 300px;
         position: relative;
         top: 250px;
-        left: 35px;
+        left: 45px;
         border-radius: 16px;
         transition: 0.5s;
         object-fit: cover;
@@ -436,49 +471,25 @@ nav ul li{
         bottom: 250px;
         font-size: 20px;
         color: white;
-        margin-left: 40px;
+        margin-left: 45px;
         font-family:"Abel", sans-serif;
         position: relative;
         }
         .boton0{
-            text-decoration:none;
-            font-weight: 600;
-            font-size: 20px;
-            color:#333333;
-            padding-top:15px;
-            padding-bottom:20px;
-            padding-left:40px;
-            padding-right:40px;
-            background-color: #62c3f4;
-            border-style: solid;
-            border-radius:35px;
-            position: relative;
-            top: 250px;
-            left:90px;
-            cursor: pointer;
+            visibility: hidden;
         }
         
         .fotoin{
-            position: relative;
-            height: 50px;
-            width: 50px;
-            top: 270px;
-            right: 150px;
+             visibility: hidden;
         }
         .fotogit{
-            position: relative;
-            height: 50px;
-            width: 50px;
-            top: 270px;
-            left: 50px;
+            visibility: hidden;
         }
         /*-------------- Proyectos------------------ */
         .proyecto{
             background-color: white;
             height: 30vw;
             width: 100vw;
-        
-        
         }
         .proyectotitulo h2{
             position: relative;
@@ -491,7 +502,6 @@ nav ul li{
             font-style: normal;
             font-size: 50px; 
             text-align: center; 
-            left: 5px; 
         }
         /*---------------- Proyecto 1------------------ */
     .proyecto1{
@@ -527,12 +537,13 @@ nav ul li{
         color: black;
         text-align: center;
         height: 50px;
-        width: 200px;
-        top: 10px;
+        width: 230px;
+        top: 40px;
         position: relative;
         margin-bottom: 15px;
         font-size: 25px;
         font-family: "Abel", sans-serif;
+        right: 10px;
     }
     /*---------------- Proyecto 2------------------ */
     .proyecto2{
@@ -675,7 +686,21 @@ nav ul li{
     font-size: 25px;
     left: 80px;
     top: 10px;
-    align-items: center;
+    text-align: center;
+}
+.fotoin2{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    top: 5px;
+    left: 70px;
+}
+.fotogit2{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    top: 5px;
+    left: 170px;
 }
 .container-form form .campo, textarea{
     width: 30%;
@@ -685,10 +710,11 @@ nav ul li{
     margin-bottom: 10px;
     border-radius: 3px;
     outline: 0px;
-    margin-left: 90px;
+    margin-left: 60px;
     background-color: #F3F3F3;
     position: relative;
     top: 20PX;
+    width: 250px;
     
 }
 .container-form form textarea{
@@ -711,9 +737,9 @@ nav ul li{
 
 .btn-enviar{
     position: relative;
-    width: 250px;
+    width: 280px;
     bottom: 10px;
-    left: 90px;
+    left: 60px;
 }
 /*------------------ Footer---------------- */
 .piedepagina{
