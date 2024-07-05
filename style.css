@@ -62,7 +62,7 @@ nav ul li{
 
 /*-------------- Principal------------------ */
 .soy-yo{
-    background-color: black;
+    background: linear-gradient(#62c3f4,black,black, black);
     height: 52.08vw;
     width: 100vw;
 }
@@ -199,7 +199,7 @@ nav ul li{
 }
 /*----------------Proyecto 2--------------------*/
 .proyecto2{
-    background-color: #ebeff1;
+    background: linear-gradient(#62c3f4,#ebeff1,#ebeff1,#ebeff1,#ebeff1,#ebeff1);
     height: 52.08vw;
     width: 100vw;
 
@@ -240,7 +240,7 @@ nav ul li{
 }
 /*----------------- Proyecto 3------------------ */
 .proyecto3{
-    background-color: #62c3f4;
+    background: linear-gradient(#ebeff1,#62c3f4,#62c3f4,#62c3f4,#62c3f4);
     height: 52.08vw; 
     width: 100vw;
 
@@ -451,7 +451,7 @@ nav ul li{
         height: 90px;
         width: 290px;
         position: relative;
-        top: 30px
+        top: 60px
     
     }
     .foto1 {
