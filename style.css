@@ -207,7 +207,7 @@ nav ul li{
 .nombre3{
     color: black;
     position: relative;
-    top: 200px;
+    top: 240px;
     font-family: "Bebas Neue", sans-serif;
     margin-left: 950px;
     font-size: 75px ;
@@ -219,7 +219,7 @@ nav ul li{
     width: 700px;
     height: 400px;
     left: 150px;
-    top: 29px;
+    top: 120px;
     transition: 0.5s;
     object-fit: cover;
 }
@@ -236,7 +236,7 @@ nav ul li{
     left: 950px;
     font-size: 30px;
     font-family: "Abel", sans-serif;
-    bottom: 180px;
+    bottom: 160px;
 }
 /*----------------- Proyecto 3------------------ */
 .proyecto3{
